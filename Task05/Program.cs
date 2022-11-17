@@ -5,8 +5,7 @@
 
 Console.Write("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int number2 = number * -1;
-int count = number2;
+int count =-number;
 
 if (number < 0)
 {
