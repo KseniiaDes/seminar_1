@@ -1,0 +1,21 @@
+﻿//5. Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+//4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+//2 -> " -2, -1, 0, 1, 2"
+
+
+Console.Write("Введите натуральное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int number2 = number * -1;
+int count = number2;
+
+if (number < 0)
+{
+    Console.WriteLine("Ошибка ввода, введите положительное число");
+}
+else
+    while (count <= number)
+    {
+        Console.Write($"{count}, ");
+        count++;
+    }
+
