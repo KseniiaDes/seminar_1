@@ -9,7 +9,7 @@ int square = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (square == number*number) 
+if (square == number * number)
 {
     Console.WriteLine("да");
 }
